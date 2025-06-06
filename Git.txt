@@ -1,0 +1,14 @@
+
+py -m venv venv
+
+cd "C:\Users\shida\Documents\1. Easy_Tech_Services\19.CharliePity_Lite"
+source venv/Scripts/activate
+
+cd ~/Documents/1. Easy_Tech_Services/19.CharliePity_Lite
+
+git init
+git remote add origin https://github.com/shidalgo0925/CharliePity_Lite.git
+git add .
+git commit -m "Versión estática inicial de Charlie Pity Lite"
+git branch -M main
+git push -u origin main
